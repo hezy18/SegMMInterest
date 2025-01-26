@@ -1,0 +1,17 @@
+# Common Features
+USER_ID_FIELD: userID
+ITEM_ID_FIELD: itemID
+#RATING_FIELD: rating
+TIME_FIELD: timestamp
+
+filter_out_cod_start_users: False
+
+inter_file_name: 'SegMMdefault.inter'
+
+# name of features
+vision_feature_file: 'image_feat_pos.npy'
+# vision_feature_file: 'image_feat.npy'
+text_feature_file: ''
+user_graph_dict_file: ~
+
+field_separator: "\t"

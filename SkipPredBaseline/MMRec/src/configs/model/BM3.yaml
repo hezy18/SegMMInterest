@@ -1,0 +1,14 @@
+embedding_size: 64
+feat_embed_dim: 64
+
+n_layers: [1, 2,4]
+dropout: [0, 0.3, 0.5]
+reg_weight: [0.1, 0.01,0.002]
+cl_weight: [2,10]
+learning_rate: [0.0001, 0.001, 0.01]
+
+
+use_neg_sampling: False
+
+hyper_parameters: ["cl_weight", "n_layers", "learning_rate","reg_weight", "dropout"]
+
