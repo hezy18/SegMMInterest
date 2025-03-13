@@ -30,11 +30,11 @@ logging.info(f"Command: {' '.join(sys.argv)}")
 seed_value = 42
 np.random.seed(seed_value)
 random.seed(seed_value)
-os.environ['PYTHONHASHSEED'] = str(seed_value)  # 为了禁止hash随机化，使得实验可复现。
+os.environ['PYTHONHASHSEED'] = str(seed_value) 
 
-torch.manual_seed(seed_value)     # 为CPU设置随机种子
-torch.cuda.manual_seed(seed_value)      # 为当前GPU设置随机种子（只用一块GPU）
-torch.cuda.manual_seed_all(seed_value)   # 为所有GPU设置随机种子（多块GPU）
+torch.manual_seed(seed_value)
+torch.cuda.manual_seed(seed_value) 
+torch.cuda.manual_seed_all(seed_value)
 
 def prepareMemmap():
     mapping_path = "SegMM_photoidframeid2lineid.json"
