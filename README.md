@@ -1,5 +1,8 @@
-# SegMMInterest
-Short Video Segment-level User Interests Modeling in Personalized Recommendation
+# Short Video Segment-level User Interests Modeling in Personalized Recommendation
+
+**The paper has been accepted by SIGIR 2025.**
+
+paper links: 
 
 ## Dataset
 
