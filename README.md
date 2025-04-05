@@ -2,7 +2,7 @@
 
 **The paper has been accepted by SIGIR 2025.**
 
-paper links: 
+paper links: https://github.com/hezy18/SegMMInterest/blob/main/SIGIR_2025_Zhiyu.pdf
 
 ## Dataset
 
