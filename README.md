@@ -18,6 +18,9 @@ Here's the [data details](https://github.com/hezy18/SegMMInterest/blob/main/SegM
 
 ## Citation
 
+If you use our dataset(SegMM), methods, find our contributions useful in your work, please cite our paper as:
+
+```bib
 @ARTICLE{2025arXiv250404237H,
        author = {{He}, Zhiyu and {Ling}, Zhixin and {Li}, Jiayu and {Guo}, Zhiqiang and {Ma}, Weizhi and {Luo}, Xinchen and {Zhang}, Min and {Zhou}, Guorui},
         title = "{Short Video Segment-level User Dynamic Interests Modeling in Personalized Recommendation}",
@@ -32,3 +35,6 @@ archivePrefix = {arXiv},
  primaryClass = {cs.IR},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2025arXiv250404237H},
 }
+'''
+
+If you have any question, please contact us at hezy22@mails.tsinghua.edu.cn.
