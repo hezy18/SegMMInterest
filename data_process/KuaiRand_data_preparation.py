@@ -9,7 +9,7 @@ from datetime import datetime
 SEED = 2024
 
 root = 'dataset/KuaiRand/'
-inter_df = pd.read_csv(root + 'KuaiRand-1K/data/log_standard_4_08_to_4_21_1k.csv')
+inter_df = pd.read_csv('KuaiRand.csv')
 print(len(inter_df), inter_df.columns)
 # ['user_id', 'video_id', 'date', 'hourmin', 'time_ms', 'is_click','is_like', 'is_follow', 'is_comment', 'is_forward', 'is_hate',
 #  'long_view', 'play_time_ms', 'duration_ms', 'profile_stay_time', 'comment_stay_time', 'is_profile_enter', 'is_rand', 'tab']
