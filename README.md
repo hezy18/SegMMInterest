@@ -2,9 +2,9 @@
 
 **The paper has been accepted by SIGIR 2025.**
 
-paper links: https://github.com/hezy18/SegMMInterest/blob/main/SIGIR_2025_Zhiyu.pdf
+paper link: https://github.com/hezy18/SegMMInterest/blob/main/SIGIR_2025_Zhiyu.pdf
 
-arxiv links: https://arxiv.org/abs/2504.04237
+arxiv link: https://arxiv.org/abs/2504.04237
 
 ## Dataset
 
