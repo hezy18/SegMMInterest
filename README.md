@@ -2,9 +2,9 @@
 
 **The paper has been accepted by SIGIR 2025.**
 
-paper link: https://github.com/hezy18/SegMMInterest/blob/main/SIGIR_2025_Zhiyu.pdf
-
 arxiv link: https://arxiv.org/abs/2504.04237
+
+acm link: https://dl.acm.org/doi/abs/10.1145/3726302.3730083
 
 ## Dataset
 
@@ -16,27 +16,29 @@ Here's the [data details](https://github.com/hezy18/SegMMInterest/blob/main/SegM
 * MMinterest is the code for segment-level user dynamic interest modeling and baselines in video-skip prediction
 * SegRec is the code for segment-integrated video recommendation
 * SkipPredBaseline is the code for recommender baselines in video-skip prediction
-* data_process is for preparation of data in all tasks
+* data_process is for the preparation of data in all tasks
 
 ## Citation
 
-If you use our dataset(SegMM), methods, find our contributions useful in your work, please cite our paper as:
+If you use our dataset(SegMM), methods, and find our contributions useful in your work, please cite our paper as:
 
 ```bib
-@ARTICLE{2025arXiv250404237H,
-       author = {{He}, Zhiyu and {Ling}, Zhixin and {Li}, Jiayu and {Guo}, Zhiqiang and {Ma}, Weizhi and {Luo}, Xinchen and {Zhang}, Min and {Zhou}, Guorui},
-        title = "{Short Video Segment-level User Dynamic Interests Modeling in Personalized Recommendation}",
-      journal = {arXiv e-prints},
-     keywords = {Information Retrieval},
-         year = 2025,
-        month = apr,
-          eid = {arXiv:2504.04237},
-        pages = {arXiv:2504.04237},
-archivePrefix = {arXiv},
-       eprint = {2504.04237},
- primaryClass = {cs.IR},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2025arXiv250404237H},
+@inproceedings{10.1145/3726302.3730083,
+author = {He, Zhiyu and Ling, Zhixin and Li, Jiayu and Guo, Zhiqiang and Ma, Weizhi and Luo, Xinchen and Zhang, Min and Zhou, Guorui},
+title = {Short Video Segment-level User Dynamic Interests Modeling in Personalized Recommendation},
+year = {2025},
+isbn = {9798400715921},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3726302.3730083},
+doi = {10.1145/3726302.3730083},
+booktitle = {Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {1880–1890},
+numpages = {11},
+keywords = {segment-level interest, user modeling, video recommendation},
+location = {Padua, Italy},
+series = {SIGIR '25}
 }
 ```
 
-If you have any question, please contact us at hezy22@mails.tsinghua.edu.cn.
+If you have any questions, please get in touch with us at hezy22@mails.tsinghua.edu.cn.
