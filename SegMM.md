@@ -42,7 +42,7 @@ with open ('SegMM_photoidframeid2lineid.json', 'r') as f:
 print(len(photoidframeid2lineid))
 
 photo_id = 305062 # example photo_id
-line_id = photoidframeid2lineid['305062-1']
+line_id = photoidframeid2lineid[f'{photo_id}-1']
 print(line_id)
 
 total_line = len(photoidframeid2lineid)
