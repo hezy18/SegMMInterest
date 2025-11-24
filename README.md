@@ -41,4 +41,4 @@ series = {SIGIR '25}
 }
 ```
 
-If you have any questions, please get in touch with us at hezy22@mails.tsinghua.edu.cn.
+If you have any questions, please get in touch with us at hezy18@mails.tsinghua.edu.cn.
